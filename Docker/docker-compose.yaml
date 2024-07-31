@@ -1,0 +1,31 @@
+services:
+  postgres:
+    container_name: postgres_induction_container
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "induction"
+      POSTGRES_USER: "rrr"
+      POSTGRES_PASSWORD: "rrr"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - induction-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    restart: always
+
+  pgadmin:
+    container_name: pgadmin_induction_container
+    image: dpage/pgadmin4:8.3
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "rrr@mail.ru"
+      PGADMIN_DEFAULT_PASSWORD: "rrr"
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    restart: always
+
+volumes:
+  induction-data:
+  pgadmin-data:
