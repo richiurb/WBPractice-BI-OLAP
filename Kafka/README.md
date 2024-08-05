@@ -46,6 +46,7 @@ Name: topic_practice
 Написать python скрипт для заливки данных из небольшой таблицы клика в топик кафка в формате json.
 
 [producer.py](./python/producer.py)
+
 [clickhouse_connect.py](./python/clickhouse_connect.py)
 
 ## Задание 4
