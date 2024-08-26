@@ -46,13 +46,14 @@ Name: topic_practice
 Написать python скрипт для заливки данных из небольшой таблицы клика в топик кафка в формате json.
 
 [producer.py](./python/producer.py)
+
 [clickhouse_connect.py](./python/clickhouse_connect.py)
 
 ## Задание 4
 
 Программа Offset Explorer, просмотреть данные в топике.
 
-[Data in topic](./img/Offset_Explorer_data.png "Данные в топике")
+![Data in topic](./img/Offset_Explorer_data.png "Данные в топике")
 
 ## Задание 5
 
@@ -60,4 +61,4 @@ Name: topic_practice
 
 [Код](./python/consumer.py)
 
-[Recieved messages](./img/Received_messages.png "Доставленные сообщения из топика")
+![Recieved messages](./img/Received_messages.png "Доставленные сообщения из топика")
