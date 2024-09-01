@@ -87,7 +87,7 @@ spark-submit --master spark://spark-master:7077 \
 
 ![Конечная таблица tarificator](./img/currently_tarificator.png "currently.tarificator")
 
-***Здесь стоит подметить, что конечных данных гораздо меньше, чем в stg слое - это связано с моментом, что в currently слое использовался движок ReplacingMergeTree, а employee_id я специально занулил***
+*Здесь стоит подметить, что конечных данных гораздо меньше, чем в stg слое - это связано с моментом, что в currently слое использовался движок ReplacingMergeTree, а employee_id я специально занулил*
 
 DDL curently.tarificator:
 
