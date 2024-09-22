@@ -1,0 +1,19 @@
+{
+    "clickhouse": [
+      {
+        "host": "clickhouse-server-practice",
+        "user": "admin_practice",
+        "password": "admin_practice",
+        "port": "9000"
+      }
+    ],
+    "postgres": [
+      {
+        "host": "postgres-wb-practice",
+        "user": "user",
+        "password": "user123",
+        "port": "5432",
+        "database": "report"
+      }
+    ]
+}
